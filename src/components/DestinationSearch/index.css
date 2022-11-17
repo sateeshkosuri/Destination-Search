@@ -1,0 +1,34 @@
+.destination-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #252627;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+.search-button {
+  background-color: #f1f5f9;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  color: #0f172a;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.search-input {
+  background-color: transparent;
+  border: 0px;
+}
+.search-icon {
+  width: 20px;
+}
+.searchItem-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
